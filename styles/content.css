@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "ITC Avant Garde Gothic";
+}
+
 .project_container,
  .text_section_container {
     display: grid;
@@ -9,22 +13,22 @@
 }
 .project_container {
     grid-template-rows: repeat(2, auto);
-    @media (max-width: 768px) {
+    @media (max-width: 1030px) {
         padding: 0 10%;
     }
 }
 .project_header {
     grid-row-start: 1;
     grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 11;
+    grid-column-start: 2;
+    grid-column-end: 10;
 }
 .project_left {
     grid-row-start: 2;
     grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    @media (max-width: 768px) {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    @media (max-width: 1030px) {
         grid-column-start: 1;
         grid-column-end: 11;
     }
@@ -33,8 +37,8 @@
     grid-row-start: 2;
     grid-row-end: 2;
     grid-column-start: 5;
-    grid-column-end: 11;
-    @media (max-width: 768px) {
+    grid-column-end: 10;
+    @media (max-width: 1030px) {
         grid-row-start: 3;
         grid-row-end: 3;
         grid-column-start: 1;
@@ -47,8 +51,8 @@
 .text_section {
     grid-row-start: 1;
     grid-row-end: 1;
-    grid-column-start: 2;
-    grid-column-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 9;
 }
 .text_section img {
     height: auto;
@@ -61,14 +65,14 @@
     align-items: flex-start;
     justify-content: center;
     gap: 10px;
-    @media (max-width: 768px) {
+    @media (max-width: 1030px) {
         padding: 0 10%;
     }
 }
 .image_section_container img {
     height: 340px;
     width: auto;
-    @media (max-width: 768px) {
+    @media (max-width: 1030px) {
         height: auto;
         width: 100%;
     }
