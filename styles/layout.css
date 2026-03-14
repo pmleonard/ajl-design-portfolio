@@ -1,6 +1,15 @@
+/* @font-face {
+    font-family: 'ITC Avant Garde Gothic';
+    src: url('path/to/your/fontfile.woff2') format('woff2'),
+         url('path/to/your/fontfile.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
 body {
   	margin: 0;
   	line-height: normal;
+    font-family: "Poppins", sans-serif;
 }
 
 /*div {

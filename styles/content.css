@@ -1,5 +1,13 @@
+/* @font-face {
+    font-family: 'Adobe Caslon Pro';
+    src: url('fonts/AdobeCaslonPro-Regular.woff2') format('woff2'),
+         url('fonts/AdobeCaslonPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: "ITC Avant Garde Gothic";
+    font-family: "ITC Avant Garde Gothic", serif;
 }
 
 .project_container,
