@@ -50,10 +50,11 @@ document.addEventListener('DOMContentLoaded', function() {
             const href = this.getAttribute('href');
             
             // Only filter for UX/UI DESIGN and GRAPHIC DESIGN
-            if ((text === 'UX/UI DESIGN' || text === 'GRAPHIC DESIGN') && href === './index.html') {
+            if ((text === 'UX/UI DESIGN' || text === 'GRAPHIC DESIGN') && href.endsWith('index.html')) {
                 e.preventDefault();
                 // Navigate to index.html and pass the category as a query parameter
-                window.location.href = './index.html?filter=' + encodeURIComponent(text);
+                const basePath = href.includes('../../') ? '../../' : './';
+                window.location.href = basePath + 'index.html?filter=' + encodeURIComponent(text);
             }
         });
     });
@@ -62,9 +63,9 @@ document.addEventListener('DOMContentLoaded', function() {
     if (logoLink) {
         logoLink.addEventListener('click', function(e) {
             const href = this.getAttribute('href');
-            if (href === './index.html') {
+            if (href.endsWith('index.html')) {
                 e.preventDefault();
-                window.location.href = './index.html';
+                window.location.href = href;
             }
         });
     }
