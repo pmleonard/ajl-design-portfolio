@@ -8,9 +8,9 @@
     <script src="../../scripts/nav.js"></script>
     <script src="../../scripts/filter.js"></script>
 </head>
- 
+
 <body>
- 
+
 <div id="sidehome" class="page_container">
     <div class="hdr_left"></div>
     <div class="hdr_mid">
@@ -54,17 +54,18 @@
     </div>
     <div class="hdr_right"></div>
     <div class="banner">
-        <img class="banner_img" src="../../images/content/mesozoic/LDbanner.jpg" >
+        <img class="banner_img" src="../../images/content/mesozoic/banner.png" >
     </div>
     <div class="mid_left">
         <nav class="side_navbar">
             <ul>
-                <li><a href="#empathize">Empathize</a></li>
-                <li><a href="#ideate">Ideate</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#challenge">Challenge</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#ideation">Ideation</a></li>
                 <li><a href="#prototype">Prototype</a></li>
                 <li><a href="#visualdesign">Visual Design</a></li>
                 <li><a href="#finalprototype">Final Prototype</a></li>
-                <li><a href="#testing">Testing</a></li>
                 <li><a href="#reflection">Reflection</a></li>
             </ul>
         </nav>
@@ -72,147 +73,93 @@
     <div class="mid_mid">
         <div class="project_container">
             <div class="project_header">
-                <h1>Luminous Depths</h1>
+                <h1>Mysteries of the Mesozoic</h1>
             </div>
             <div class="project_left">
                 <h3>Services</h3>
-                <p>UX/UI Design, Experience Design,<br>Web Design, Environmental Design</p>
+                <p>Educational Design, Web Design,<br>UX/UI Design, Illustration</p>
                 <h3>Role</h3>
-                <p>Researcher,<br>UX/UI Designer</p>
+                <p>Researcher, UX/UI Designer,<br>Brand Designer, Illustrator</p>
             </div>
             <div class="project_right">
-                <h3>Overview</h3>
-                <p>Luminous Depths is a multi-platform digital exhibition experience designed for the Monterey Bay Aquarium that explores the mysterious world of deep-sea bioluminescence. This project bridges physical and digital environments, creating an immersive journey into the ocean's darkest depths where light becomes a language of survival. The exhibition serves both in-person visitors through an interactive environmental installation and online audiences through a scrollytelling web experience, ensuring accessibility while maintaining the wonder and scientific rigor that defines deep-sea exploration.</p>
-                <h3>Challenge</h3>
-                <p>The primary challenge was creating a cohesive multi-platform experience that would engage three distinct user groups—academics and researchers, educators, and children—while maintaining scientific accuracy and emotional impact. The design needed to make visitors aware of the deep-sea environment rather than the technology itself. Additionally, the project required balancing ambitious interactive features, such as projection mapping, touch-responsive surfaces, and scrollytelling animations, within a realistic timeline and technical scope.</p>
+                <h3 id="overview">Overview</h3>
+                <p>Mysteries of the Mesozoic is an interactive educational platform designed to spark curiosity about dinosaurs and Earth's ancient history in middle school learners. Through an engaging, scroll-based timeline and an animated continental drift map, users can explore key periods of the Mesozoic Era while collecting dinosaur profiles along the way. The experience blends scientific accuracy with a sense of discovery and adventure, helping users understand not only the dinosaurs themselves, but also the shifting landscapes, evolving ecosystems, and massive spans of time that shaped life on Earth.</p>
+                <h3 id="challenge">Challenge</h3>
+                <p>The primary challenge was creating an educational platform that would genuinely engage middle school students while maintaining scientific accuracy and meeting curriculum standards. Research revealed a critical tension: students found many educational apps either too dry and boring or oversimplified, while teachers struggled to find digital resources that balance entertainment with education. The platform needed to appeal to students who prefer hands-on, interactive activities and game-like challenges while providing teachers with content that aligns with middle school science curriculum.</p>
             </div>
         </div>
         <div class="text_section_container">
             <div class="text_section">
-                <h1 id="empathize">Research and Analysis</h1>
-                <p>The competitive analysis examined interactive museum experiences and digital exhibitions focusing on immersive storytelling. The American Museum of Natural History's ocean exhibits demonstrated effective use of bioluminescence simulations, while the Monterey Bay Aquarium's existing marine life presentations provided insight into visitor expectations and institutional branding. Analysis of scrollytelling techniques revealed opportunities to simulate descent into the ocean through progressive darkening and animated content. Research into projection mapping systems and interactive floor installations, particularly the concept of bioluminescent ocean simulations that react to visitor movements, informed the physical space design. The competitive landscape showed a gap in exhibitions that seamlessly integrated scientific depth with accessible, magical storytelling across both digital and physical platforms.</p>
+                <h1 id="research">Research and Analysis</h1>
+                <p>The research phase involved a comprehensive SWOT analysis of three major competitors in the educational dinosaur content space, followed by interviews with teachers, parents, and students to understand their needs, pain points, and motivations.</p>
+                <h2>Competitive Analysis</h2>
+                <p>The competitive analysis examined the existing dinosaur educational content landscape, revealing several key insights. The analysis demonstrated strong brand associations that enhanced credibility and memorability with users. However, a significant gap emerged in interactivity levels, with many offerings providing limited engagement features that failed to maintain long-term user retention, particularly for older elementary and middle school students. Additionally, educational approaches tended to fall into two extremes: either overly basic content targeting younger audiences or entertainment-focused experiences that compromised educational depth. These findings revealed clear opportunities to develop comprehensive educational content that bridges the gap between basic and advanced learning, create interactive features that sustain engagement over time, and focus on broader historical context while maintaining rigorous educational standards.</p>
+                <h2>User Interviews</h2>
+                <p>Interviews with three key stakeholder groups revealed critical insights for design decisions. Teachers emphasized the need for supporting activities rather than complete lesson plans, expressing concerns about excessive screen time while seeking resources that encourage higher-level thinking. Parents prioritized meaningful educational content over busy work, wanting confidence that screen time was productive in a safe, ad-free environment that didn't sacrifice social skills development. Students provided crucial engagement insights, expressing a strong preference for interactive, self-paced learning that felt like a game or adventure. They valued exploring independently while having support available when needed, and were highly motivated by earning rewards and achievements that created a sense of progress.</p>
+                <h2>User Personas</h2>
+                <p>Based on the research and interviews, three primary personas were developed to represent key stakeholder groups. Together, these personas highlight the platform's challenge of serving multiple audiences: students wanting adventure and autonomy, teachers requiring educational rigor within budget constraints, and parents demanding meaningful screen time in safe environments.</p>
             </div>
-        </div>
-        <div class="image_section_container">
-            <img src="../../images/content/mesozoic/LDswot1.jpg">
-            <img src="../../images/content/mesozoic/LDswot2.jpg">
         </div>
         <div class="text_section_container">
             <div class="text_section">
-                <h1>User Personas</h1>
-                <p>The three personas represent fundamentally different needs that must coexist within a single exhibition design—a challenge that defines the success of multi-audience educational experiences. The critical insight here is not what each persona wants individually, but rather the inherent tensions between their requirements and why designing for all three simultaneously matters. The research-focused academic needs depth and precision, the educator requires content that translates into actionable teaching tools, and the child demands immediate sensory engagement. These needs often conflict: scientific rigor can overwhelm younger audiences, while oversimplification alienates researchers. The exhibition's design challenge lies in creating layers of information that serve different cognitive needs without fragmenting the experience. This inclusive design philosophy transforms the exhibition from a single-purpose display into a flexible learning ecosystem for all audiences.</p>
+                <h1 id="ideation">Ideation and Concept Development</h1>
+                <p>Based on user needs identified through research, a concept centered on interactive exploration and discovery was developed. To prioritize features and functionality, a MoSCoW matrix was created. A comprehensive sitemap was developed to establish the information architecture, mapping out all of the main sections. To validate this, three user flows were created showing how a student would move through the app in different scenarios. These user flows revealed potential friction points in the navigation and helped refine the dual-navigation system that would appear in the final prototype.</p>
+                <h2>MoSCoW Prioritization</h2>
+                <p>A MoSCoW matrix was created to prioritize features and functionality based on user needs identified through research. This framework helped balance the competing demands of student engagement, educational rigor, and development constraints by categorizing features into Must Have, Should Have, Could Have, and Won't Have categories.</p>
+                <h2>Information Architecture</h2>
+                <p>A comprehensive sitemap was developed to establish the information architecture, mapping out all of the main sections including the timeline view, continental drift exploration, dinosaur collection, and educational resources. This sitemap ensured that content was organized logically and that users could move between sections without losing context or orientation.</p>
+                <h2>User Flows</h2>
+                <p>Three user flows were created showing how a student would move through the app in different scenarios: exploring the timeline chronologically, investigating a specific time period through the continental drift map, and reviewing their collected dinosaur profiles. These user flows revealed potential friction points in the navigation and helped refine the dual-navigation system that would appear in the final prototype.</p>
             </div>
-        </div>
-        <div class="image_section_container">
-            <img src="../../images/content/mesozoic/Persona1.jpg">
-            <img src="../../images/content/mesozoic/Persona2.jpg">
-            <img src="../../images/content/mesozoic/Persona3.jpg">
         </div>
         <div class="text_section_container">
             <div class="text_section">
-                <h1 id="ideate">Ideation and Concept Development</h1>
-                <p>Concept development centered on creating parallel experiences that would feel cohesive despite different platforms. For the website, the scrollytelling format emerged as the ideal solution, simulating a descent from the ocean surface into increasing darkness, with bioluminescent creatures appearing as users scroll deeper. Interactive elements include clickable animals that reveal detailed information pages, callouts with facts throughout the journey, and an interactive feature demonstrating how light appears underwater at various depths. For the physical space, the concept evolved into an underwater-themed gallery featuring circular viewports scattered across walls, resembling submarine portholes. These touch-screen viewports display bioluminescent creatures and allow visitors to swipe through detailed information.</p>
+                <h1 id="prototype">Iterative Prototyping and User Testing</h1>
+                <p>The navigation system evolved through several rounds of prototyping and testing iterations. The initial hamburger menu lacked sufficient visibility and context for the multi-layered experience. Small arrows at the bottom of the text container proved even less effective—users couldn't understand how to navigate between time periods. A color-coded side panel was then tested, but users found navigation in this unexpected location unintuitive. The breakthrough came from adding a fixed sidebar for main navigation with collapsible folders for time periods, creating a clear information hierarchy users immediately grasped.</p>
+                <p>User testing of the timeline view revealed additional navigation challenges. One user expressed frustration about having to scroll all the way to reach the end of the timeline, while another didn't realize they needed to scroll at all. These insights led to the creation of a color-coded bottom navigation with interactive dots color-coded to the time periods highlighting the key events.</p>
+                <p>The final iteration addressed a user experience issue: the continental drift page jumped directly into the first time period without context. By allowing folders to collapse completely, a smooth transition sequence was created showing all three time periods with continents visibly shifting before users dove into details. This solution not only eliminated the abruptness but made the exploration experience significantly more engaging and visually compelling.</p>
             </div>
-        </div>
-        <div class="image_section_container">
-            <img src="images/content/sketch1.png">
-            <img src="images/content/sketch2.png">
-            <img src="images/content/sketch3.png">
         </div>
         <div class="text_section_container">
             <div class="text_section">
-                <h1>User Flow</h1>
-                <p>The user flow was designed to gradually immerse visitors in the deep-sea environment, mirroring the experience of a real ocean descent. By starting at the ocean surface and progressively darkening the interface as users scroll deeper, the journey builds anticipation and wonder naturally. This approach serves all three user personas effectively. For children like Lily, the gradual reveal creates mystery and excitement, making each new bioluminescent creature feel like a magical discovery. For educators like Mark, the logical progression from surface to depths provides a clear narrative structure that mirrors how marine biology is actually taught. For researchers like Emily, the systematic organization by depth zones reflects authentic oceanographic categorization.</p>
-                <p>The flow prevents cognitive overload by introducing complex concepts in digestible layers. Visitors first understand where bioluminescence occurs (The Largest Ecosystem on Earth), then what it is (The Magic of Bioluminescence), followed by how it works (How Does It Work?), before encountering individual species. This scaffolded learning approach ensures that even youngest visitors can grasp scientific concepts while maintaining depth for adult audiences. The interactive elements—animal popups, the Colors of the Deep feature—are strategically placed after foundational knowledge is established, allowing visitors to explore deeper only when they're ready. This mirrors the exhibition's core metaphor: just as deep-sea creatures adapt to their environment gradually, visitors adapt to the exhibition's darkness and complexity at their own pace, creating an experience that feels discovery-driven.</p>
+                <h1 id="finalprototype">Final Prototype</h1>
+                <p>The final prototype features a sophisticated dual-navigation system designed to support exploration at every step. Custom navigation enables users to orient themselves and move through content in multiple ways, accommodating different learning styles and exploration preferences.</p>
+                <h2>Timeline</h2>
+                <p>The timeline view features a color-coded bottom navigation with interactive dots that highlight key events, allowing users to jump between major moments in prehistoric history. The color-coding matches the time period system, providing consistent visual language throughout the experience. As users explore the timeline, they can click on dinosaurs to unlock and collect detailed profiles, building their personal collection while learning about creatures from different eras.</p>
+                <h2>Regional Exploration</h2>
+                <p>When users click on a pin within the continental drift map, they enter a detailed regional exploration page where they can discover and collect dinosaurs that lived in that specific habitat. Each dinosaur appears with a collectible card showing key information and is saved in the user's personal collection.</p>
+                <h2>Fixed Side Navigation</h2>
+                <p>A persistent side navigation provides quick access to all major sections of the experience. This allows users to jump between the timeline view, continental drift map, their collected dinosaurs, and educational resources without losing their place. The fixed position ensures orientation is always available, addressing the student pain point of getting overwhelmed by poor navigation.</p>
+                <h2>Continental Drift</h2>
+                <p>On the continental drift page, the map animates to show how continents moved over millions of years, making an abstract concept visually concrete and engaging. Collapsible folders let users explore by time period, with clickable pins revealing more about specific regions and the dinosaurs that lived there. This layered approach to information prevents overwhelming users while allowing deep exploration for those who want it.</p>
+                <h2>Collections</h2>
+                <p>As users encounter dinosaurs and add to their personal collection, each unlocks a profile with scientific information including Time Period, Location, Group, Physical Description, and Hunting & Social Behavior. This collection mechanic directly addresses the research finding that students are strongly motivated by collecting items and earning rewards, creating ongoing motivation to explore and learn.</p>
             </div>
-        </div>
-        <div class="image_section_container">
-            <img src="../../images/content/mesozoic/userflow.jpg">
-        </div>
-        <div class="text_section_container">
-            <div class="text_section">
-                <h1 id="prototype">Low-Fidelity Prototyping</h1>
-                <p>Initial wireframes focused on information architecture and user flow for both platforms. The website sitemap outlined the progression from surface to deep sea, mapping content zones for different ocean depths and determining placement of interactive elements. Wireframes tested the scrollytelling mechanics, ensuring smooth transitions between depth zones and intuitive interaction patterns for exploring creatures. For the physical space, low-fidelity prototypes explored viewport placement, screen sizes, and visitor flow patterns through the darkened gallery.</p>
-            </div>
-        </div>
-        <div class="image_section_container">
-            <img src="../../images/content/mesozoic/lofi.png">
         </div>
         <div class="text_section_container">
             <div class="text_section">
                 <h1 id="visualdesign">Visual Identity</h1>
-                <p>The visual identity aligns with the Monterey Bay Aquarium's established branding while creating a distinct identity for Luminous Depths. The color palette draws from the exhibition's environment: deep navy and black backgrounds represent the darkness of the deep sea, while bioluminescent yellow, blues, and red create the signature glow of deep-sea creatures. Photography consists of professional images sourced from the Monterey Bay Aquarium's collection, showcasing real bioluminescent organisms.</p>
-                <h1>Logo</h1>
-                <p>The logo captures the essence of deep-sea bioluminescence with glowing elements that suggest both scientific precision and natural wonder.</p>
+                <p>The visual identity of Mysteries of the Mesozoic blends the charm of vintage exploration with a clean, modern interface. This approach emerged from the need to create something that felt adventurous and discovery-oriented while maintaining the clarity and accessibility middle school users require.</p>
+                <h2>Logo System</h2>
+                <p>The logo combines a stylized dinosaur silhouette with typography that evokes field guides and scientific exploration from the golden age of paleontology. The design balances whimsy with scientific credibility, appealing to both the student desire for adventure and the teacher/parent need for educational legitimacy.</p>
+                <h2>Color Palette</h2>
+                <p>Each time period is color-coded to help users stay oriented as they scroll through prehistoric time. Vibrant earth tones are used, with a main green chosen for the Triassic, orange for the Jurassic, and blue for the Cretaceous, complemented by lighter shades of blue and green for secondary elements. For neutrals, a dark brown, light brown, and tan were selected to ground the palette in natural, prehistoric tones.</p>
+                <h2>Typography</h2>
+                <p>A flared serif typeface gives titles a timeless, field guide feel that reinforces the exploration theme. This choice evokes vintage scientific illustration and natural history museums, creating an atmosphere of discovery and scholarly adventure. Simple sans-serif text keeps body copy readable for younger users, ensuring that the decorative serif doesn't compromise usability or accessibility.</p>
+                <h2>Illustrations and Visual System</h2>
+                <p>The visual design combines sourced materials with custom elements to create an authentic exploration experience. A subtle crumpled map texture photograph sets the scene of prehistoric discovery, grounding the interface in the aesthetic of vintage field guides. For dinosaur depictions, scientifically accurate illustrations reflect current paleontological understanding. Custom illustrations of animated globes show continental drift, visualizing how Earth's geography transformed over millions of years.</p>
             </div>
-        </div>
-        <div class="image_section_container">
-            <img src="../../images/content/mesozoic/logo.png">
-        </div>
-        <div class="text_section_container">
-            <div class="text_section">
-                <h1>Typography</h1>
-                <p>Typography balances readability with atmosphere, using clean sans-serif fonts for scientific information while incorporating subtle luminous effects for headers that evoke the exhibition's magical quality.</p>
-            </div>
-        </div>
-        <div class="image_section_container">
-            <img src="../../images/content/mesozoic/typography.png">
-        </div>
-        <div class="text_section_container">
-            <div class="text_section">
-                <h1 id="finalprototype">Exhibition Website</h1>
-                <p>The website prototype features a fully immersive scrollytelling experience beginning at the ocean surface with introductory content about mid-water to deep-sea environments and bioluminescence. As users scroll, the interface progressively darkens, simulating descent into deeper waters. Animated text appears and fades in rhythm with the journey, while bioluminescent animals emerge from the darkness, each clickable to reveal detailed species information. The interactive light demonstration allows users to toggle between depths, showing how colors and visibility change underwater.</p>
-            </div>
-        </div>
-        <div class="image_section_container">
-            <img src="images/content/website1.png">
-            <img src="images/content/website2.png">
-            <img src="images/content/website3.png">
-            <img src="images/content/website4.png">
-        </div>
-        <div class="text_section_container">
-            <div class="text_section">
-                <h1>Environmental Design</h1>
-                <p>The physical environment exhibition presents a darkened gallery transformed into an underwater realm. Various-sized circular viewports are scattered across walls like submarine portholes, each featuring touch screens displaying bioluminescent creatures through either live footage or high-quality video. Visitors can swipe through information layers on each screen, accessing species details, behavior patterns, and scientific facts. A dedicated interactive porthole hosts the light spectrum display, similar to the website feature, allowing visitors to observe how different colors penetrate water.</p>
-            </div>
-        </div>
-        <div class="image_section_container">
-            <video autoplay muted loop playsinline style="width: 100%; max-width: 1200px;">
-                <source src="../../images/content/mesozoic/env1.mp4" type="video/mp4">
-            </video>
         </div>
         <div class="text_section_container">
             <div class="text_section">
                 <h1 id="reflection">Reflection and Impact</h1>
-                <p>This project successfully demonstrated how digital technology can enhance museum experiences without overshadowing content, fulfilling the principle that technology should reveal subject matter rather than itself. The multi-platform approach ensured the exhibition reaches both physical visitors and online audiences, extending access beyond the museum's walls. Key learnings included the importance of designing for diverse user groups simultaneously while maintaining a cohesive narrative, and the challenge of balancing ambitious interactive concepts with realistic technical implementation timelines. The project reinforced that effective exhibition design requires deep understanding of both subject matter and audience needs, with user personas serving as crucial touchstones throughout the design process.</p>
+                <p>This project reinforced the importance of designing for multiple stakeholders with different, sometimes competing needs. The challenge of creating something engaging enough for students, rigorous enough for teachers, and trustworthy enough for parents required careful balancing throughout the design process. The research phase proved invaluable—the insights from student interviews about game-like elements and collection systems became core features, while teacher feedback about curriculum alignment and parent concerns about meaningful educational value shaped the content strategy and information architecture.</p>
             </div>
         </div>
     </div>
-    <div class="mid_right">
-        <a href="#sidehome"><img class="nav_return" src="../../icons/nav/nav_return.svg"></a>
-    </div>
-    <div class="bot_left">&nbsp;</div>
-    <div class="bot_mid">
-        <div class="banner">
-            <img class="banner_img" src="images/footer/cover.png" >
-        </div>
-    </div>
-    <div class="footer_left">&nbsp;</div>
-    <div class="footer_mid">
-        <div class="ftr_container">
-            <div class="ftr_logo_container">
-                <img class="logo_icon" src="../../icons/header/logo.svg" >
-            </div>
-            <nav class="ftr_navbar">
-                <ul>
-                    <li><a href="">Linkedin</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+    <div class="mid_right"></div>
 </div>
- 
+
 </body>
+
 </html>

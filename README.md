@@ -20,8 +20,13 @@ This portfolio website displays a curated collection of design projects, includi
 - **About** (`about.html`) - Designer background and skills
 - **Contact** (`contact.html`) - Contact information and inquiry form
 - **UX/UI Projects** - Detailed case studies for individual projects:
+  - Break the Stigma (`designs/uxui/breakstigma.html`)
+  - Creativity Map (`designs/uxui/creativitymap.html`)
+  - Luminous Depths (`designs/uxui/luminousdepths.html`)
   - Mesozoic (`designs/uxui/mesozoic.html`)
   - Netflix (`designs/uxui/netflix.html`)
+  - Sip & Stir (`designs/uxui/sipstir.html`)
+  - TerraVita (`designs/uxui/terravita.html`)
 
 ## Project Structure
 
@@ -39,6 +44,13 @@ This portfolio website displays a curated collection of design projects, includi
 ├── designs/
 │   ├── graphic/               # Graphic design projects
 │   └── uxui/                  # UX/UI case studies
+│       ├── breakstigma.html
+│       ├── creativitymap.html
+│       ├── luminousdepths.html
+│       ├── mesozoic.html
+│       ├── netflix.html
+│       ├── sipstir.html
+│       └── terravita.html
 ├── images/
 │   ├── content/               # Project imagery
 │   ├── home/                  # Homepage images
