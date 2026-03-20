@@ -158,6 +158,9 @@ body {
     font-weight: normal;
     white-space: nowrap;
 }
+.logo_bullet {
+  	color: #e25599;
+}
 
 .menu_container {
     flex: 1;
