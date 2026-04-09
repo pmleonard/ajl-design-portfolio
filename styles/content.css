@@ -202,3 +202,9 @@
     text-decoration: none !important;
     color: inherit !important;
 }
+
+.rounded-video {
+    max-height: 500px;
+    border-radius: 35px;
+    display: block;
+}
